@@ -1,3 +1,196 @@
+body {
+  margin: 0;
+}
 
+nav {
+  padding-bottom: 2vh;
+  background-image: url(../images/banner.jpg);
+  filter: brightness(70%);
+  background-size: cover;
+  color: grey;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  margin: 1vh;
+}
+
+.titre-navbar {
+  margin: 1vh;
+}
+
+.spatial {
+  color: #fff;
+}
+
+.mid-nav {
+  padding: 25vh;
+  font-size: x-large;
+  text-align: center;
+}
+
+.btn-nav {
+  border: none;
+  height: 45px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #fc1c72;
+}
+
+.sect2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 15vh;
+}
+
+.titre-sect2 {
+  width: 250px;
+  flex-direction: column;
+}
+
+.t-sect2 {
+  font-size: x-large;
+}
+
+.ss-titre {
+  color: #cccaca;
+}
+
+.para-sect2 {
+  color: #cccaca;
+  margin-left: 7vh;
+  width: 450px;
+}
+
+.sect3 {
+  background-color: #f5f4f4;
+  padding: 15vh;
+}
+
+.titre-sect3 {
+  text-align: center;
+}
+
+.cards-sect3 {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  margin: 20px;
+  background-color: white;
+}
+
+.img-sect3 {
+  height: 150px;
+  width: 250px;
+}
+
+.para-sect3 {
+  text-align: center;
+}
+
+.input-sect3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn1-sect3 {
+  height: 25px;
+  width: 120px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #fc1c72;
+  color: white;
+}
+
+.btn2-sect3 {
+  height: 25px;
+  width: 120px;
+  margin: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.sect4 {
+  padding: 20vh;
+}
+
+.titre-sect4 {
+  text-align: center;
+}
+
+.dis-sect4 {
+  display: flex;
+}
+
+.para-sect4 {
+  direction: rtl;
+  padding-top: 3vh;
+  width: 260px;
+}
+
+.para2-sect4 {
+  padding-top: 3vh;
+  width: 260px;
+}
+
+.img-sect4 {
+  border-radius: 50%;
+  border: 4px solid grey;
+  margin: 3vh;
+}
+
+.part1-sect4 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.part2-sect4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sect5 {
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  padding: 5vh;
+  filter: brightness(70%);
+  text-align: center;
+}
+
+.color-sect5 {
+  color: grey;
+}
+
+footer {
+  background-color: #cdcaca;
+  padding: 3vh;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+footer ul li {
+  margin: 10px;
+}
+
+.sep-footer {
+  width: 1px;
+  background-color: #000;
+}
 
 /*# sourceMappingURL=style.css.map */
